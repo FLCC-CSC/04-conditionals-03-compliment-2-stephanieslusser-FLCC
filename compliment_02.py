@@ -15,8 +15,8 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 ask = input("Would you like a compliment? ")
-if ask.lower() == 'yes':
-    print('You have wonderful eyes')
+if ask == 'yes':
+    print('You have wonderful eyes.')
 else:
     print('No compliment for you!')
 
